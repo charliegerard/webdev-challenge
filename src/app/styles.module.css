@@ -1,0 +1,35 @@
+.video {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.righthand {
+  width: 50px;
+  height: 50px;
+  background-color: hotpink;
+  border: 4px solid white;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.lefthand {
+  width: 50px;
+  height: 50px;
+  background-color: cyan;
+  border: 4px solid white;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.game {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
